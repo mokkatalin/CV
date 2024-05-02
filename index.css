@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(176, 213, 255);
+}
+
+.hidden{
+    display: none;
+}
+
+ul{
+    
+    margin: auto;
+   
+    padding:0px;
+}
+
+ul li{
+    list-style: none;
+    border-radius: 10px;
+}
+
+li {
+    font-size: large;
+    padding: 10px;
+   
+}
+
+#jatekter{
+    border-collapse: collapse;
+    margin:auto;
+    margin-top: 3%;
+    
+}
+
+table td {
+    
+    border: 1px solid black ;
+    color: white;
+    font-size: large;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    height: fit-content;
+}
+
+#nyero{
+    
+    text-align: center;
+    margin-top: 2%;
+    
+    height: 50px;
+}
+
+#playerName{
+    background-color:rgb(196, 223, 255);
+    font-size: x-large;
+}
+
+#leiras{
+    margin: 20px;
+    text-align: justify;
+}
+
+#jatek{
+    width: 38%;
+    min-width: fit-content;
+    text-align: center;
+}
+
+#palyavalaszto{
+   
+    top: 0;
+    text-align: center;
+    width: 38%;
+    
+    border-radius: 10px;
+    display: inline-block;
+    background-color: rgb(149, 149, 252);
+    
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+#ujra, #megszakit{
+    font-size: large;
+    background-color: rgb(149, 149, 252);
+    
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#ujra:hover, #megszakit:hover{
+    background-color: rgb(201, 159, 255);
+}
+
+#ujradiv{
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.kicsi{
+    border: 1px solid black ;
+    width: 10px;
+    height: 10px;
+    font-size: x-small;
+    
+}
+
+.felben{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#palyak, #mentett{
+    flex-wrap: wrap;
+}
+
+#palyak{
+    justify-content: space-around;
+}
+
+#mentett{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+ 
+
+.buttons:hover{
+    background-color: rgb(201, 159, 255);
+}
+
+.menuselected{
+    background-color: rgb(122, 122, 252);
+}
+
+.selected{
+    border: 2px solid brown;
+}
